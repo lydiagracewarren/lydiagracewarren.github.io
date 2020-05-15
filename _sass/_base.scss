@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;
 }
 
 hr {
@@ -34,6 +34,7 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
+    text-transform: capitalize;
 }
 
 p {
@@ -348,4 +349,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
